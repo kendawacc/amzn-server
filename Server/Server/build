@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -e
+
+mode=${1:-Release}
+
+dotnet publish \
+  -c "$mode" \
+  -r linux-x64 \
+  --self-contained true \
+  -p:PublishSingleFile=true \
+  -p:EnableWorkloadResolver=false
