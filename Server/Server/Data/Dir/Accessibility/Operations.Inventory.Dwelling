@@ -1,0 +1,5 @@
+﻿{
+  "Name": "Dwelling",
+  "Description": "A system that tracks dwelling inventory to improve accuracy and optimize inventory management.",
+  "Common" :"Operations/Inventory/Dwelling"
+}

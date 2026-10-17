@@ -1,0 +1,5 @@
+﻿{
+  "Name": "Labor Assignment",
+  "Description": "A system that automatically assigns associates to tasks based on data-driven insights.",
+  "Common" :"Operations/Manage/LaborAssignment"
+}
